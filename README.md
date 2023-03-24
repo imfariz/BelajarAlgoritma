@@ -1,4 +1,7 @@
 # Belajar Algoritma
 Belajar Algoritma melalui implementasi langsung menggunakan Javascript.
-== Algoritma Pengurutan
-== Algoritma Pencarian
+==
+Algoritma Pengurutan
+== 
+Algoritma Pencarian
+==
