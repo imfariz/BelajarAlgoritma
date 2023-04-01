@@ -23,4 +23,24 @@ const selection = (array, ascending) => {
     return array;
 }
 
-console.log(selection(array, false));
+const bubble = (array, ascending) => {
+    for (let index = 0; index < array.length; index++) {
+        for (let innerIndex = 0; innerIndex < array.length; innerIndex++) {
+            let temporaryNumber = array[innerIndex];
+            if(ascending) {
+                if (array[innerIndex] > array[innerIndex+1]) {
+                    array[innerIndex] = array[innerIndex+1];  
+                    array[innerIndex+1] = temporaryNumber;
+                }
+            } else {
+                if (array[innerIndex] < array[innerIndex+1]) {
+                    array[innerIndex] = array[innerIndex+1];  
+                    array[innerIndex+1] = temporaryNumber;
+                }
+            }
+        }
+    }
+    return array;
+}
+
+console.log(bubble(array, 0));
