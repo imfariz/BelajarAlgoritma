@@ -1,4 +1,4 @@
-const array = [14, 33, 27, 10, 35, 19, 42, 44];
+const array = [14, 33, 27, 10, 35, 19, 42, 44, 75];
 
 console.log(array);
 
@@ -76,4 +76,32 @@ const insertionSort = (array, ascending) => {
     return array;
 }
 
-console.log(insertionSort(array));
+const mergeSort = (array, ascending) => {
+
+    if (array.length <= 1) return array;
+
+    const midPoint = Math.floor(array.length/2);
+
+    // Rekursif
+    let leftArray = mergeSort(array.slice(0, midPoint), ascending);
+    let rightArray = mergeSort(array.slice(midPoint), ascending);
+
+    return mergeArray(leftArray, rightArray, ascending);
+}
+
+// Helper Function
+
+const mergeArray = (leftArray, rightArray, ascending) => {
+    let sortedArray = [];
+
+    while (leftArray.length && rightArray.length) {
+        if (leftArray[0] < rightArray[0] && !ascending) {
+            sortedArray.push(leftArray.shift());
+        }  else {
+            sortedArray.push(rightArray.shift());
+        }
+    }
+    return [ ... sortedArray, ... leftArray, ... rightArray ];
+}
+
+console.log(mergeSort(array));
