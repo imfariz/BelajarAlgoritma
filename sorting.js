@@ -111,11 +111,11 @@ const factorial = number => {
     return number * factorial(number-1);
 }
 
-const fibonacci = number => {
-    if (number == 1) return 0;
-    if (number == 2) return 1;
+const fibonacci = (number, nilaiPertama, nilaiKedua) => {
+    if (number == 1) return nilaiPertama;
+    if (number == 2) return nilaiKedua;
 
-    return fibonacci(number-1) + fibonacci(number-2);
+    return fibonacci(number-1, nilaiPertama, nilaiKedua) + fibonacci(number-2, nilaiPertama, nilaiKedua);
 }
 
-console.log(mergeSort(array));
+console.log(fibonacci(8, 4, 7));
