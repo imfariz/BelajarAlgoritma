@@ -1,0 +1,148 @@
+let contacts = [
+    {
+        id: 1,
+        coId: 1,
+        nama: "ABCD",
+        whatsapp: "081263492839",
+    },
+    
+    {
+        id: 2,
+        coId: 1,
+        nama: "EFGH",
+        whatsapp: "081263423849",
+    },
+    {
+        id: 3,
+        coId: 2,
+        nama: "ABCD",
+        whatsapp: "081263492839",
+    },
+    {
+        id: 4,
+        coId: 2,
+        nama: "EFGH",
+        whatsapp: "081263423849",
+    },
+    {
+        id: 5,
+        coId: 3,
+        nama: "ABCD",
+        whatsapp: "081263492839",
+    },
+    {
+        id: 6,
+        coId: 3,
+        nama: "EFGH",
+        whatsapp: "081263423849",
+    },
+    {
+        id: 7,
+        coId: 4,
+        nama: "ABCD",
+        whatsapp: "081263492839",
+    },
+    {
+        id: 7,
+        coId: 4,
+        nama: "EFGH",
+        whatsapp: "081263423849",
+    },
+    {
+        id: 8,
+        coId: 5,
+        nama: "ABCD",
+        whatsapp: "081263492839",
+    },
+    {
+        id: 8,
+        coId: 5,
+        nama: "EFGH",
+        whatsapp: "081263423849",
+    },
+    {
+        id: 9,
+        coId: 6,
+        nama: "ABCD",
+        whatsapp: "081263492839",
+    },
+    {
+        id: 10,
+        coId: 6,
+        nama: "EFGH",
+        whatsapp: "081263423849",
+    },
+    {
+        id: 11,
+        coId: 7,
+        nama: "ABCD",
+        whatsapp: "081263492839",
+    },
+    {
+        id: 12,
+        coId: 7,
+        nama: "EFGH",
+        whatsapp: "081263423849",
+    },
+    {
+        id: 13,
+        coId: 8,
+        nama: "ABCD",
+        whatsapp: "081263492839",
+    },
+    {
+        id: 14,
+        coId: 8,
+        nama: "EFGH",
+        whatsapp: "081263423849",
+    },
+    {
+        id: 15,
+        coId: 9,
+        nama: "ABCD",
+        whatsapp: "081263492839",
+    },
+    {
+        id: 15,
+        coId: 9,
+        nama: "EFGH",
+        whatsapp: "081263423849",
+    },
+    {
+        id: 16,
+        coId: 10,
+        nama: "ABCD",
+        whatsapp: "081263492839",
+    },
+    {
+        id: 17,
+        coId: 10,
+        nama: "EFGH",
+        whatsapp: "081263423849",
+    },
+    {
+        id: 18,
+        coId: 11,
+        nama: "ABCD",
+        whatsapp: "081263492839",
+    },
+    {
+        id: 19,
+        coId: 11,
+        nama: "EFGH",
+        whatsapp: "081263423849",
+    },
+    {
+        id: 20,
+        coId: 12,
+        nama: "ABCD",
+        whatsapp: "081263492839",
+    },
+    {
+        id: 21,
+        coId: 12,
+        nama: "EFGH",
+        whatsapp: "081263423849",
+    },
+
+]

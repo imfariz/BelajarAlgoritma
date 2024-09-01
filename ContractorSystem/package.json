@@ -1,0 +1,14 @@
+{
+  "name": "contractorsystem",
+  "version": "0.0.1",
+  "description": "Management System for Contractor Profile",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app"
+  },
+  "author": "Fariz Ramadhan",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
